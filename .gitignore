@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Windows / Office artifacts
+desktop.ini
+Thumbs.db
+*.lnk
+~$*
+
+# Recycle bin (if it ever lands here)
+$RECYCLE.BIN/
+
+# Python / notebooks (if any)
+__pycache__/
+.ipynb_checkpoints/
+
+# VS Code settings (usually local-only)
+.vscode/
+
+# Logs / temp
+*.log
+*.tmp
+EOF
